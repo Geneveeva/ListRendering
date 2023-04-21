@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+
+  min-height: 100vh;
+  padding: 16px;
+  margin: auto;
+  background: rgb(255,208,102);
+background: linear-gradient(0deg, rgba(255,208,102,0.5) 50%, rgba(215,77,140,0.5) 50%);
+}
+
+.inputfield{
+  /* background-color: blue; */
+  padding: 14px 24px;
+  width: 100%;
+}
+
+.cardholder{
+  display: flex;
+  gap: 6px;
+  background-color: white;
+  margin: 10px;
+
+}
+.profiles-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+}
